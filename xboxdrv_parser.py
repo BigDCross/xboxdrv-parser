@@ -81,7 +81,7 @@ class Controller:
             if not len (return_values) == len (return_as):
                 sys.exit ("return_values and return_as must be the same length!")
         elif return_as and not return_values:
-                sys.exit ("No values to return!")
+            sys.exit ("No values to return!")
 
         if not in_range and not out_range:
             pass
